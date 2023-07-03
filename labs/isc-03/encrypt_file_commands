@@ -1,0 +1,4 @@
+openssl genrsa -aes128 -out private.pem 1024
+openssl rsa -in private.pem -pubout > public.pem
+openssl rsautl -encrypt -inkey public.pem -pubin -in top_secret.txt -out top_secret.enc
+openssl rsautl -decrypt -inkey private.pem -in top_secret.enc > top_secret.txt

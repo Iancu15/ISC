@@ -1,0 +1,5 @@
+3. setfacl  -m  u:alice:7  important-files
+4. setfacl  -m  g:nicepeople:7 alice-files
+5. setfacl -Rdm g:nicepeople:rwx alice-files
+6. setfacl  -x  g:nicepeople  alice-files
+setfacl -b alice-files

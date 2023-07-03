@@ -1,0 +1,11 @@
+gcc simple.c -lcurl
+sudo systemctl start httpd.service
+sudo systemctl stop httpd.service
+sudo systemctl status httpd.service
+https://hexed.it/
+GIF87a -> 474946383761
+FLAG gif -> FLAG{ZmxhZ3tnMWZfb3JfajFmfQ==}
+
+journalctl -e _TRANSPORT=kernel
+sudo iptables -I INPUT -p tcp -i lo -j LOG
+sudo iptables -L

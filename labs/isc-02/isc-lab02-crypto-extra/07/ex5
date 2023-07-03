@@ -1,0 +1,6 @@
+IV -> 7ec00bc6fd663984c1b6c6fd95ceeef1
+original -> 464952455F4E554B45535F4D454C4121
+altered -> 53454E445F4E554445535F4D454C4121
+
+result xor between the 3:
+6bcc17c7fd66398bc1b6c6fd95ceeef1
